@@ -1,0 +1,54 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+uvloop==0.21.0
+
+# Database - PostgreSQL
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+greenlet==3.1.1
+
+# Database - MongoDB
+motor==3.6.0
+
+# Database - Redis
+redis[hiredis]==5.2.1
+
+# Data scraping
+yfinance==0.2.50
+httpx==0.28.1
+tenacity==9.0.0
+
+# PDF parsing
+PyPDF2==3.0.1
+
+# Scheduling
+apscheduler==3.10.4
+
+# Configuration
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+
+# FRED API
+fredapi==0.5.2
+
+# Utilities
+pandas==2.2.3
+numpy==2.2.1
+
+# ── NLP Sentiment Pipeline ───────────────────────────
+# Web scraping
+beautifulsoup4==4.12.3
+selenium==4.27.1
+webdriver-manager==4.0.2
+
+# NER
+spacy==3.8.3
+
+# FinBERT sentiment
+transformers==4.47.1
+torch>=2.1.0
+accelerate==1.2.1
+
+# Celery async workers
+celery[redis]==5.4.0
