@@ -52,3 +52,9 @@ accelerate==1.2.1
 
 # Celery async workers
 celery[redis]==5.4.0
+
+# ── ML Forecasting ───────────────────────────────────
+scikit-learn==1.4.0
+mlflow==2.10.0
+matplotlib==3.8.2
+seaborn==0.13.2
